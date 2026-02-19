@@ -108,13 +108,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #e99ed4;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #fff !important;
 			text-decoration: none;
 		}
 
@@ -1847,7 +1847,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #e99ed4;
 		}
 
 	select {
@@ -1952,7 +1952,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #e99ed4;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2056,7 +2056,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
-			border-radius: 0.35em;
+			border-radius: 0.5em;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2100,7 +2100,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				background: url("images/bg.png"), url("images/bg.png");
 				opacity: 1.0;
 			}
 
@@ -2532,16 +2532,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #e99ed4;
+				border-color: #e99ed4;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #e99ed4;
+				border-color: #e99ed4;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2603,7 +2603,7 @@ input, select, textarea {
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.791);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2638,10 +2638,11 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(241, 235, 235, 0.454);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			color: #ccced1;
 		}
 
 		#header .image.avatar {
